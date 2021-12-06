@@ -2,8 +2,8 @@
 /*===== VARIABLES CSS =====*/
 :root {
   /*===== Colores =====*/
-  --first-color: #f2a20c;
-  --white-color: #e9eaec;
+  --first-color: #ffa114;
+  --white-color: #1d4491;
   --dark-color: #272d40;
   --dark-color-lighten: #f2f5ff;
   /*===== Fuente y tipografia =====*/
@@ -164,9 +164,7 @@ main div.whyWe {
   height: 85vh;
 }
 main div.products {
-  height: 75vh;
-  /*===== CARD =====*/
-  /* Hover card effect */
+  height: 85vh;
 }
 main div.products h3.title {
   color: #f2a20c;
@@ -222,7 +220,7 @@ main div.products .card__button {
   width: max-content;
   padding: 1.125rem 2rem;
   background-color: var(--first-color);
-  color: var(--white-color);
+  color: white;
   border-radius: 0.5rem;
   font-weight: 600;
   transition: 0.2s;
