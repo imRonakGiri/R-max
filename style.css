@@ -13,7 +13,6 @@
   --normal-font-size: 1rem;
   --small-font-size: 0.875rem;
 }
-
 *,
 ::before,
 ::after {
@@ -146,7 +145,12 @@ main div.hero::before {
   position: absolute;
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(to left, rgba(255, 0, 0, 0.2), rgba(0, 128, 0, 0.2), rgba(0, 0, 255, 0.2));
+  background: linear-gradient(
+    to left,
+    rgba(255, 0, 0, 0.2),
+    rgba(0, 128, 0, 0.2),
+    rgba(0, 0, 255, 0.2)
+  );
 }
 main div.contect {
   justify-content: center;
