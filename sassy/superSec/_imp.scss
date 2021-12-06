@@ -1,0 +1,15 @@
+body > * {
+  width: 100vw;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+h3.title {
+  font-family: monospace;
+  text-align: center;
+  color: lightblue;
+  font-size: 2.5rem;
+  width: 100vw;
+}

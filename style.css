@@ -2,8 +2,8 @@
 /*===== VARIABLES CSS =====*/
 :root {
   /*===== Colores =====*/
-  --first-color: #ffa114;
-  --white-color: #1d4491;
+  --first-color: #f2a20c;
+  --white-color: #0f3787;
   --dark-color: #272d40;
   --dark-color-lighten: #f2f5ff;
   /*===== Fuente y tipografia =====*/
@@ -13,6 +13,7 @@
   --normal-font-size: 1rem;
   --small-font-size: 0.875rem;
 }
+
 *,
 ::before,
 ::after {
@@ -145,12 +146,7 @@ main div.hero::before {
   position: absolute;
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(
-    to left,
-    rgba(255, 0, 0, 0.2),
-    rgba(0, 128, 0, 0.2),
-    rgba(0, 0, 255, 0.2)
-  );
+  background: linear-gradient(to left, rgba(255, 0, 0, 0.2), rgba(0, 128, 0, 0.2), rgba(0, 0, 255, 0.2));
 }
 main div.contect {
   justify-content: center;
@@ -165,6 +161,8 @@ main div.whyWe {
 }
 main div.products {
   height: 85vh;
+  /*===== CARD =====*/
+  /* Hover card effect */
 }
 main div.products h3.title {
   color: #f2a20c;

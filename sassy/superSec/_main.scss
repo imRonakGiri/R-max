@@ -1,0 +1,11 @@
+// super section
+main {
+  .section {
+    border: 1px solid grey;
+  }
+  @import "../setion/hero";
+  @import "../setion/contect";
+  @import "../setion/qlty";
+  @import "../setion/whyWe";
+  @import "../setion/products";
+}
