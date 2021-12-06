@@ -139,7 +139,10 @@ main div.hero h3.title {
 }
 main div.hero p:nth-child(2) {
   color: #e06332;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
+}
+main div.hero p#b-state {
+  color: white;
 }
 main div.hero::before {
   content: "";
