@@ -13,6 +13,9 @@ div.contect {
   display: flex;
   height: 60vh;
   margin-bottom: 4vh;
+  h3.title {
+    color: rgb(10, 160, 214);
+  }
   div.contect-info {
     justify-content: space-evenly;
     flex-direction: column;
@@ -30,4 +33,18 @@ div.contect {
       color: yellow;
     }
   }
+}
+
+div.contect::before {
+  content: "";
+  position: absolute;
+  bottom: -182vh;
+  width: 100vw;
+  height: 95vh;
+  background: linear-gradient(
+    to left,
+    rgba(255, 0, 0, 0.2),
+    rgba(0, 128, 0, 0.2),
+    rgba(0, 0, 255, 0.2)
+  );
 }
