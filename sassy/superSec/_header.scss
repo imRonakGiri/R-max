@@ -7,6 +7,7 @@ header {
   display: flex;
   height: 10vh;
   z-index: 100;
+  box-shadow: 1px 1px 10px black;
   @import "../sub_section/logo-header";
   @import "../sub_section/menu-header";
   @import "../sub_section/social-header";
