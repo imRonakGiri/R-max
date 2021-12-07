@@ -1,11 +1,15 @@
 // super section
 main {
-  .section {
-    border: 1px solid grey;
+  div.section {
+    border: 0px solid grey;
   }
+  div.section > * {
+    padding: 0rem;
+  }
+
   @import "../setion/hero";
   @import "../setion/contect";
-  @import "../setion/qlty";
+  @import "../setion/about";
   @import "../setion/whyWe";
   @import "../setion/products";
 }

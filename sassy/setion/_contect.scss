@@ -1,6 +1,33 @@
 // section
 div.contect {
-  justify-content: center;
+  background: linear-gradient(
+    to top,
+    rgba(15, 134, 214, 0.248),
+    rgba(0, 128, 0, 0.22),
+    rgba(225, 131, 30, 0.467)
+  );
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 50%;
+  color: rgb(123, 114, 114);
   display: flex;
-  height: 85vh;
+  height: 60vh;
+  margin-bottom: 4vh;
+  div.contect-info {
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-bottom: 100%;
+    text-align: center;
+    display: flex;
+    height: 60vh;
+    .fa-envelope {
+      color: rgb(0, 208, 255);
+    }
+    .fa-phone {
+      color: rgb(8, 187, 8);
+    }
+    .fa-map {
+      color: yellow;
+    }
+  }
 }

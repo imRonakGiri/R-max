@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Heebo&family=Prata&family=Josefin+Sans&family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo&family=Prata&family=Josefin+Sans&family=Montserrat&display=swap&family=Poppins:wght@400;500;600&display=swap");
 /*===== VARIABLES CSS =====*/
 :root {
   /*===== Colores =====*/
@@ -36,10 +36,26 @@ body::-webkit-scrollbar {
 
 h3.title {
   font-family: monospace;
+  margin-bottom: 2rem;
   text-align: center;
-  color: lightblue;
-  font-size: 2.5rem;
+  color: #417dd6;
+  font-size: 1.5rem;
   width: 100vw;
+}
+
+/* Style all font awesome icons */
+.fa {
+  text-decoration: none;
+  text-align: center;
+  border-radius: 100%;
+  font-size: 30px;
+  padding: 10px;
+  width: 50px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.8;
 }
 
 header {
@@ -78,23 +94,10 @@ header div.social {
   justify-content: space-evenly;
   display: flex;
   width: 20vw;
-  /* Style all font awesome icons */
-  /* Add a hover effect if you want */
   /* Set a specific color for each brand */
   /* Facebook */
   /* Twitter */
   /* Instagram*/
-}
-header div.social .fa {
-  text-decoration: none;
-  text-align: center;
-  border-radius: 100%;
-  font-size: 30px;
-  padding: 10px;
-  width: 50px;
-}
-header div.social .fa:hover {
-  opacity: 0.8;
 }
 header div.social .fa-facebook {
   background: #3b5998;
@@ -109,12 +112,11 @@ header div.social .fa-instagram {
   color: white;
 }
 
-main {
-  /*===== GOOGLE FONTS =====*/
-  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+main div.section {
+  border: 0px solid grey;
 }
-main .section {
-  border: 1px solid grey;
+main div.section > * {
+  padding: 0rem;
 }
 main div.hero {
   background: url("./img/hero.jpg");
@@ -152,23 +154,59 @@ main div.hero::before {
   background: linear-gradient(to left, rgba(255, 0, 0, 0.2), rgba(0, 128, 0, 0.2), rgba(0, 0, 255, 0.2));
 }
 main div.contect {
-  justify-content: center;
+  background: linear-gradient(to top, rgba(15, 134, 214, 0.248), rgba(0, 128, 0, 0.22), rgba(225, 131, 30, 0.467));
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 50%;
+  color: #7b7272;
   display: flex;
-  height: 85vh;
+  height: 60vh;
+  margin-bottom: 4vh;
 }
-main div.qlty {
-  height: 85vh;
+main div.contect div.contect-info {
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin-bottom: 100%;
+  text-align: center;
+  display: flex;
+  height: 60vh;
+}
+main div.contect div.contect-info .fa-envelope {
+  color: #00d0ff;
+}
+main div.contect div.contect-info .fa-phone {
+  color: #08bb08;
+}
+main div.contect div.contect-info .fa-map {
+  color: yellow;
+}
+main div.about {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: min-content;
+  display: flex;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+}
+main div.about div.caria {
+  text-align: center;
+  width: 60vw;
 }
 main div.whyWe {
+  display: none;
   height: 85vh;
 }
+main div.whyWe div.inner-sec {
+  display: flex;
+}
 main div.products {
-  height: 85vh;
+  height: 90vh;
   /*===== CARD =====*/
   /* Hover card effect */
 }
 main div.products h3.title {
-  color: #f2a20c;
+  color: #e4a039;
 }
 main div.products h1,
 main div.products p {
@@ -254,7 +292,14 @@ main div.products .card:hover .card__button {
 
 footer {
   background: black;
-  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  height: 20vh;
+}
+footer p#copyright {
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

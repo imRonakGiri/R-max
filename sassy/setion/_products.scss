@@ -1,11 +1,9 @@
 // section
-/*===== GOOGLE FONTS =====*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 div.products {
-  height: 85vh;
+  height: 90vh;
   h3.title {
-    color: #f2a20c;
+    color: #e4a039;
   }
 
   h1,
@@ -24,18 +22,15 @@ div.products {
 
   /*===== CARD =====*/
   .container {
-    // height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    // background-color: var(--dark-color-lighten);
   }
 
   .card {
     width: 320px;
     height: 400px;
     margin-top: 10vh;
-    // background-color: var(--dark-color);
     border-radius: 1rem;
     padding: 4rem 2rem 0;
     color: var(--white-color);
