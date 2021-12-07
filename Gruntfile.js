@@ -25,7 +25,7 @@ module.exports = function (grunt) {
     concat: {
       js: {
         // This line will select all js file from public/js/
-        src: ["javascript/*.js"],
+        src: ["js/*.js"],
         // This line define path to Create one Js File
         dest: "main.js",
       },
@@ -46,7 +46,7 @@ module.exports = function (grunt) {
         files: ["index.html"],
       },
       js: {
-        files: ["javasrcipt/*.js"],
+        files: ["js/*.js"],
         tasks: ["concat", "uglify"],
       },
       css: {
