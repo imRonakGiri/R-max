@@ -147,7 +147,6 @@ main div.hero p#b-state {
   color: white;
 }
 main div.contect {
-  background: linear-gradient(to top, rgba(15, 134, 214, 0.248), rgba(0, 128, 0, 0.22), rgba(225, 131, 30, 0.467));
   justify-content: space-between;
   flex-direction: column;
   border-radius: 50%;
@@ -199,13 +198,6 @@ main div.about h3.title {
 main div.about div.caria {
   text-align: center;
   width: 60vw;
-}
-main div.whyWe {
-  display: none;
-  height: 85vh;
-}
-main div.whyWe div.inner-sec {
-  display: flex;
 }
 main div.products {
   height: 90vh;
