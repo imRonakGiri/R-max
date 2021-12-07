@@ -1,0 +1,20 @@
+{
+  "name": "olypex",
+  "version": "1.0.0",
+  "description": "Olypex is curter manufaturing Company based on Rajkot",
+  "main": "index.js",
+  "scripts": {
+    "grunt": "npm i && grunt"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt-contrib-concat": "^2.0.0",
+    "grunt-contrib-cssmin": "^4.0.0",
+    "grunt-contrib-jshint": "^3.1.1",
+    "grunt-contrib-sass": "^2.0.0",
+    "grunt-contrib-uglify": "^5.0.1",
+    "grunt-contrib-watch": "^1.1.0"
+  }
+}

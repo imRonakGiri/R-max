@@ -1,0 +1,13 @@
+header {
+  justify-content: space-evenly;
+  background: rgb(255, 255, 255);
+  align-items: center;
+  color: aliceblue;
+  position: fixed;
+  display: flex;
+  height: 10vh;
+  z-index: 100;
+  @import "../sub_section/logo-header";
+  @import "../sub_section/menu-header";
+  @import "../sub_section/social-header";
+}

@@ -1,0 +1,24 @@
+div.social {
+  justify-content: space-evenly;
+  display: flex;
+  width: 20vw;
+  /* Set a specific color for each brand */
+
+  /* Facebook */
+  .fa-facebook {
+    background: #3b5998;
+    color: white;
+  }
+
+  /* Twitter */
+  .fa-twitter {
+    background: #55acee;
+    color: white;
+  }
+  /* Instagram*/
+
+  .fa-instagram {
+    background: linear-gradient(to right, yellow, red, rgb(101, 18, 235));
+    color: rgb(255, 255, 255);
+  }
+}

@@ -1,0 +1,50 @@
+// section
+div.hero {
+  // for bg img
+
+  background: url("./img/hero.jpg");
+  background-repeat: no-repeat;
+
+  // if no-bg img
+
+  /* background: linear-gradient(
+      to left,
+       rgb(51, 101, 207),
+       white,
+      rgb(51, 101, 207)
+   ); */
+
+  font-family: "Josefin Sans", sans-serif;
+  justify-content: center;
+  background-size: 100%;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+
+  h3.title {
+    font-size: 3rem;
+    color: rgb(44, 81, 136);
+  }
+
+  p:nth-child(2) {
+    color: rgb(224, 99, 50);
+    font-size: 1.4rem;
+  }
+  p#b-state {
+    color: white;
+  }
+}
+
+div.hero::before {
+  content: "";
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    to left,
+    rgba(255, 0, 0, 0.2),
+    rgba(0, 128, 0, 0.2),
+    rgba(0, 0, 255, 0.2)
+  );
+}
