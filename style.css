@@ -81,14 +81,20 @@ header ul.menu {
 }
 header ul.menu li.menu-item {
   border-bottom: 3px solid rgba(0, 128, 0, 0);
-  color: #8f8f8f;
   font-weight: 900;
   cursor: pointer;
   margin-top: 5px;
+  padding: 5px;
+}
+header ul.menu li.menu-item a {
+  text-decoration: none;
+  color: #8f8f8f;
 }
 header ul.menu li.menu-item:hover {
-  color: rgba(30, 100, 12, 0.514);
   border-bottom: 3px solid rgba(0, 128, 0, 0.384);
+}
+header ul.menu li.menu-item:hover a {
+  color: rgba(30, 100, 12, 0.514);
 }
 header div.social {
   justify-content: space-evenly;
@@ -137,7 +143,7 @@ main div.hero {
 }
 main div.hero h3.title {
   font-size: 3rem;
-  color: #2c5188;
+  color: #3f7cd8;
 }
 main div.hero p:nth-child(2) {
   color: #e06332;

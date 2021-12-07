@@ -7,13 +7,19 @@ ul.menu {
 
   li.menu-item {
     border-bottom: 3px solid rgba(0, 128, 0, 0);
-    color: rgb(143, 143, 143);
     font-weight: 900;
     cursor: pointer;
     margin-top: 5px;
+    padding: 5px;
+    a {
+      text-decoration: none;
+      color: rgb(143, 143, 143);
+    }
   }
   li.menu-item:hover {
-    color: rgba(30, 100, 12, 0.514);
     border-bottom: 3px solid rgba(0, 128, 0, 0.384);
+    a {
+      color: rgba(30, 100, 12, 0.514);
+    }
   }
 }
