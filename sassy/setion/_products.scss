@@ -2,8 +2,9 @@
 
 div.products {
   height: 90vh;
+  box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.6);
   h3.title {
-    margin-top: 2rem;
+    padding-top: 2rem;
     color: #259650;
   }
 

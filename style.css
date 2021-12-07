@@ -133,7 +133,7 @@ main div.hero {
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: center;
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
+  box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.6);
   font-family: "Josefin Sans", sans-serif;
   justify-content: center;
   background-size: 100%;
@@ -202,11 +202,12 @@ main div.about div.caria {
 }
 main div.products {
   height: 90vh;
+  box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.6);
   /*===== CARD =====*/
   /* Hover card effect */
 }
 main div.products h3.title {
-  margin-top: 2rem;
+  padding-top: 2rem;
   color: #259650;
 }
 main div.products h1,
