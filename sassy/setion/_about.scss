@@ -5,9 +5,11 @@ div.about {
   flex-direction: column;
   height: min-content;
   display: flex;
-  // border: 1px green solid;
   padding-bottom: 2vh;
   padding-top: 2vh;
+  h3.title {
+    color: lightgreen;
+  }
   div.caria {
     // border: 1px green solid;
     text-align: center;

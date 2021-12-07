@@ -35,16 +35,3 @@ div.hero {
     color: white;
   }
 }
-
-div.hero::before {
-  content: "";
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  background: linear-gradient(
-    to left,
-    rgba(255, 0, 0, 0.2),
-    rgba(0, 128, 0, 0.2),
-    rgba(0, 0, 255, 0.2)
-  );
-}

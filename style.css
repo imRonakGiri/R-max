@@ -146,13 +146,6 @@ main div.hero p:nth-child(2) {
 main div.hero p#b-state {
   color: white;
 }
-main div.hero::before {
-  content: "";
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  background: linear-gradient(to left, rgba(255, 0, 0, 0.2), rgba(0, 128, 0, 0.2), rgba(0, 0, 255, 0.2));
-}
 main div.contect {
   background: linear-gradient(to top, rgba(15, 134, 214, 0.248), rgba(0, 128, 0, 0.22), rgba(225, 131, 30, 0.467));
   justify-content: space-between;
@@ -162,6 +155,9 @@ main div.contect {
   display: flex;
   height: 60vh;
   margin-bottom: 4vh;
+}
+main div.contect h3.title {
+  color: #0aa0d6;
 }
 main div.contect div.contect-info {
   justify-content: space-evenly;
@@ -180,6 +176,14 @@ main div.contect div.contect-info .fa-phone {
 main div.contect div.contect-info .fa-map {
   color: yellow;
 }
+main div.contect::before {
+  content: "";
+  position: absolute;
+  bottom: -182vh;
+  width: 100vw;
+  height: 95vh;
+  background: linear-gradient(to left, rgba(255, 0, 0, 0.2), rgba(0, 128, 0, 0.2), rgba(0, 0, 255, 0.2));
+}
 main div.about {
   justify-content: center;
   align-items: center;
@@ -188,6 +192,9 @@ main div.about {
   display: flex;
   padding-bottom: 2vh;
   padding-top: 2vh;
+}
+main div.about h3.title {
+  color: lightgreen;
 }
 main div.about div.caria {
   text-align: center;
