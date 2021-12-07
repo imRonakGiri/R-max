@@ -2,18 +2,11 @@
 div.hero {
   // for bg img
 
-  background: url("./img/hero.jpg");
+  background: url("./img/bg.jpg");
   background-repeat: no-repeat;
-
-  // if no-bg img
-
-  /* background: linear-gradient(
-      to left,
-       rgb(51, 101, 207),
-       white,
-      rgb(51, 101, 207)
-   ); */
-
+  background-size: cover;
+  background-position-y: center;
+  box-shadow:  1px 1px 10px rgba(0, 0, 0, 0.6);
   font-family: "Josefin Sans", sans-serif;
   justify-content: center;
   background-size: 100%;
@@ -23,9 +16,11 @@ div.hero {
   height: 100vh;
 
   h3.title {
-    color: rgb(25, 82, 126);
-    font-size: 3rem;
-    text-shadow: 1px 1px 20px rgba(0, 0, 255, 0.494);
+    margin-top: 7rem;
+    text-align: center;
+    color: rgb(114, 27, 27);
+    font-size: 2.2rem;
+    // text-shadow: 1px 1px 20px rgba(0, 0, 255, 0.494);
   }
 
   p:nth-child(2) {
@@ -33,6 +28,9 @@ div.hero {
     font-size: 1.4rem;
   }
   p#b-state {
-    color: white;
+    // margin-top: 250px;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
   }
 }

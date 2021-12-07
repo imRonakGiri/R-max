@@ -1,2 +1,2 @@
 $(".hero .title").innerHTML =
-  "We help to Make Your Home More Privet And Great Looking";
+  `We help to Make Your Home </br> More Privet And Great Looking`;
