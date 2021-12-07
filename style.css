@@ -71,8 +71,10 @@ header {
   box-shadow: 1px 1px 10px black;
 }
 header i.logo {
-  color: steelblue;
+  color: #e4925c;
   font-size: 1.5rem;
+  font-weight: 900;
+  font-size: 1.6rem;
 }
 header ul.menu {
   justify-content: space-evenly;
@@ -127,14 +129,11 @@ main div.section > * {
   padding: 0rem;
 }
 main div.hero {
-  background: url("./img/hero.jpg");
+  background: url("./img/bg.jpg");
   background-repeat: no-repeat;
-  /* background: linear-gradient(
-      to left,
-       rgb(51, 101, 207),
-       white,
-      rgb(51, 101, 207)
-   ); */
+  background-size: cover;
+  background-position-y: center;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
   font-family: "Josefin Sans", sans-serif;
   justify-content: center;
   background-size: 100%;
@@ -144,16 +143,19 @@ main div.hero {
   height: 100vh;
 }
 main div.hero h3.title {
-  color: #19527e;
-  font-size: 3rem;
-  text-shadow: 1px 1px 20px rgba(0, 0, 255, 0.494);
+  margin-top: 7rem;
+  text-align: center;
+  color: #721b1b;
+  font-size: 2.2rem;
 }
 main div.hero p:nth-child(2) {
   color: #e06332;
   font-size: 1.4rem;
 }
 main div.hero p#b-state {
+  font-size: 2rem;
   color: white;
+  font-weight: 400;
 }
 main div.contect {
   justify-content: space-between;
@@ -162,7 +164,6 @@ main div.contect {
   color: #7b7272;
   display: flex;
   height: 60vh;
-  margin-bottom: 4vh;
 }
 main div.contect h3.title {
   color: #0aa0d6;
@@ -184,14 +185,6 @@ main div.contect div.contect-info .fa-phone {
 main div.contect div.contect-info .fa-map {
   color: yellow;
 }
-main div.contect::before {
-  content: "";
-  position: absolute;
-  bottom: -182vh;
-  width: 100vw;
-  height: 95vh;
-  background: linear-gradient(to left, rgba(255, 0, 0, 0.2), rgba(0, 128, 0, 0.2), rgba(0, 0, 255, 0.2));
-}
 main div.about {
   justify-content: center;
   align-items: center;
@@ -199,7 +192,6 @@ main div.about {
   height: min-content;
   display: flex;
   padding-bottom: 2vh;
-  padding-top: 2vh;
 }
 main div.about h3.title {
   color: lightgreen;
@@ -214,7 +206,8 @@ main div.products {
   /* Hover card effect */
 }
 main div.products h3.title {
-  color: #e4a039;
+  margin-top: 2rem;
+  color: #259650;
 }
 main div.products h1,
 main div.products p {
@@ -299,7 +292,6 @@ main div.products .card:hover .card__button {
 }
 
 footer {
-  background: black;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -307,7 +299,8 @@ footer {
   height: 20vh;
 }
 footer p#copyright {
-  color: white;
+  font-size: 0.8rem;
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */

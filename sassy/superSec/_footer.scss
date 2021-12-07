@@ -1,12 +1,11 @@
 footer {
-  background: black;
-  // background: chartreuse;
   justify-content: center;
   align-items: center;
   text-align: center;
   display: flex;
   height: 20vh;
   p#copyright {
-    color: white;
+    font-size: 0.8rem;
+    color: black;
   }
 }
