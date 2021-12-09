@@ -39,7 +39,6 @@ h3.title {
   font-family: monospace;
   margin-bottom: 2rem;
   text-align: center;
-  color: #417dd6;
   font-size: 1.5rem;
   width: 100vw;
 }
@@ -166,12 +165,12 @@ main div.contect {
   height: 60vh;
 }
 main div.contect h3.title {
+  padding-top: 4rem;
   color: #0aa0d6;
 }
 main div.contect div.contect-info {
   justify-content: space-evenly;
   flex-direction: column;
-  margin-bottom: 100%;
   text-align: center;
   display: flex;
   height: 60vh;
@@ -194,6 +193,7 @@ main div.about {
   padding-bottom: 2vh;
 }
 main div.about h3.title {
+  padding-top: 4rem;
   color: lightgreen;
 }
 main div.about div.caria {
@@ -201,13 +201,13 @@ main div.about div.caria {
   width: 60vw;
 }
 main div.products {
-  height: 90vh;
+  height: 110vh;
   box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.6);
   /*===== CARD =====*/
   /* Hover card effect */
 }
 main div.products h3.title {
-  padding-top: 2rem;
+  padding-top: 4rem;
   color: #259650;
 }
 main div.products h1,
